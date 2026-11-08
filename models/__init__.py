@@ -1,0 +1,43 @@
+"""Structured Verilog design models produced by AST analysis."""
+
+from .design_model import (
+    AlwaysBlock,
+    Assignment,
+    BitRange,
+    CaseItem,
+    Design,
+    Diagnostic,
+    Expression,
+    InferredClockReset,
+    Instance,
+    Module,
+    Parameter,
+    ParseResult,
+    Port,
+    PortConnection,
+    Sensitivity,
+    Signal,
+    Statement,
+    Unsupported,
+)
+
+__all__ = [
+    "AlwaysBlock",
+    "Assignment",
+    "BitRange",
+    "CaseItem",
+    "Design",
+    "Diagnostic",
+    "Expression",
+    "InferredClockReset",
+    "Instance",
+    "Module",
+    "Parameter",
+    "ParseResult",
+    "Port",
+    "PortConnection",
+    "Sensitivity",
+    "Signal",
+    "Statement",
+    "Unsupported",
+]
